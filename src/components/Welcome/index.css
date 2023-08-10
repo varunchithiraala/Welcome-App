@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.welcome-app-container {
+  background-color: #1e293b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-app-heading {
+  color: #f0bb03;
+  font-family: "Bree Serif";
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-app-heading {
+    font-size: 96px;
+  }
+}
+
+.welcome-app-description {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Bree serif";
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-app-description {
+    font-size: 36px;
+  }
+}
+
+.welcome-app-button {
+  text-align: center;
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-app-button {
+    font-size: 18px;
+  }
+}
